@@ -1,0 +1,6 @@
+LOAD DATA LOCAL INFILE '/home/yw101/cs511FinalProject/redshift/countryInfo.txt'
+INTO TABLE countries
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(ISO, ISO3, ISO_Numeric, fips, Country, Capital, Area_km2, Population, Continent, tld, CurrencyCode, CurrencyName, Phone, Postal_Code_Format, Postal_Code_Regex, Languages, geonameid, neighbours, EquivalentFipsCode);

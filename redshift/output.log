@@ -1,0 +1,7 @@
+Completed 37.3 KiB/37.3 KiB (161.6 KiB/s) with 1 file(s) remainingupload: ./output.csv to s3://cs511-dataset/output.csv             
+CREATE TABLE
+INFO:  Load into table 'countries' completed, 252 record(s) loaded successfully.
+COPY
+Time taken: 6 seconds
+DROP TABLE
+delete: s3://cs511-dataset/output.csv
