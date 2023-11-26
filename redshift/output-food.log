@@ -1,0 +1,14 @@
+Exporting Cloud SQL instance...
+.....done.
+Exported [https://sqladmin.googleapis.com/sql/v1beta4/projects/cs511-dropdb-final-project/instances/mysql-instance] to [gs://dropdb_sample1/redshift/output].
+Building synchronization state...
+Starting synchronization...
+Copying gs://dropdb_sample1/redshift/output [Content-Type=text/csv]...
+/ [0/1 files][    0.0 B/224.1 MiB]   0% Done                                    / [1/1 files][224.1 MiB/224.1 MiB] 100% Done                                    -
+Operation completed over 1 objects/224.1 MiB.                                    
+CREATE TABLE
+INFO:  Load into table 'food_1' completed, 5216593 record(s) loaded successfully.
+COPY
+Time taken: 97794 milliseconds
+DROP TABLE
+delete: s3://cs511-dataset/output
